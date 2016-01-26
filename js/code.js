@@ -30,7 +30,7 @@ function init() {
 		   url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 		   crossOrigin: 'anonymous',
 		   params: {
-			 'SLD': 'http://http://jventin.github.io/sld/taustakartta_8000k.sld',
+			 'SLD': 'http://jventin.github.io/sld/taustakartta_8000k.sld',
 			 'FORMAT': 'image/png'
 		   },
 		   serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
@@ -45,7 +45,7 @@ function init() {
 		   url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 		   crossOrigin: 'anonymous',
 		   params: {
-			 'SLD': 'http://http://jventin.github.io/sld/taustakartta_4000k.sld',
+			 'SLD': 'http://jventin.github.io/sld/taustakartta_4000k.sld',
 			 'FORMAT': 'image/png'
 		   },
 		   serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
@@ -60,7 +60,7 @@ function init() {
 		   url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 		   crossOrigin: 'anonymous',
 		   params: {
-			 'SLD': 'http://avoindata.maanmittauslaitos.fi/sld/taustakartta_2000k.sld',
+			 'SLD': 'http://jventin.github.io/sld/taustakartta_2000k.sld',
 			 'FORMAT': 'image/png'
 		   },
 		   serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
@@ -75,7 +75,7 @@ function init() {
 		   url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 		   crossOrigin: 'anonymous',
 		   params: {
-			 'SLD': 'http://avoindata.maanmittauslaitos.fi/sld/taustakartta_800k.sld',
+			 'SLD': 'http://jventin.github.io/sld/taustakartta_800k.sld',
 			 'FORMAT': 'image/png'
 		   },
 		   serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
@@ -90,7 +90,7 @@ function init() {
 		   url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 		   crossOrigin: 'anonymous',
 		   params: {
-			 'SLD': 'http://avoindata.maanmittauslaitos.fi/sld/taustakartta_320k.sld',
+			 'SLD': 'http://jventin.github.io/sld/taustakartta_320k.sld',
 			 'FORMAT': 'image/png'
 		   },
 		   serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
