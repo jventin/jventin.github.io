@@ -119,7 +119,7 @@ function init() {
 	
         view: new ol.View2D({
           center: [405644, 6810165],
-          zoom: 3,
+          zoom: 4,
           maxZoom: 13,
 		  minZoom: 0,
 		  maxResolution: 8192, 
